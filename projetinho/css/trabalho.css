@@ -1,0 +1,24 @@
+*{
+    margin:10;
+    padding:5px ;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    background-color: #f0ffff;
+}
+
+body{
+    background-image: url(../foto.png);
+   
+    height: 200px;
+}

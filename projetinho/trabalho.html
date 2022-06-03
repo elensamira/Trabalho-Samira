@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/trabalho.css">
+    <title>teste</title>
+  
+</head>
+
+<body style="margin: 25px;">
+    <h2>CADASTRO DE PRODUTOS</h2>
+    <div>
+    <form id="infos-prod" margin="auto">
+        <label for ="name">Nome: </label>
+        <input type="text" id="nome" nome="nome" placeholder="Bolo" required/>
+
+        <label for ="preco">Preço: </label>
+        <input type="number" id="preco" nome="preco" placeholder=" R$ 100,00" required/>
+
+        <input type="checkbox" name="prime" id="prime">
+        <label for ="prime">É prime:</label>
+       <input type="hidden" name="idx" id="novo" value="novo"/>
+        <input type="submit" value="salvar">
+        <input type="button" id="sair" value="sair">
+
+    </form>
+    <div id ="msg-erro"></div>
+     </div>
+     <br><br>
+
+     <table border ="1" style="margin:auto;" >
+         <caption>
+             <h3>Listas De Produtos</h3>
+         </caption>
+         <thead>
+             <tr>
+                 <th>Identificador</th>
+                 <th>Nome Do Produto</th>
+                 <th>Preço Do Produto</th>
+                 <th>Prime</th>
+                 <th>ações</th>
+             </tr>
+         </thead>
+         <tbody id ="tbody"></tbody>
+
+     </table>
+     <script src="trabalho.js"></script>
+</body>
+</html>
